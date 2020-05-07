@@ -2,11 +2,19 @@
 
 ## Getting started
 
-`$ npm install react-native-conekta --save`
+Using npm:
 
-### Mostly automatic installation
+```shell
+npm install --save react-native-conekta
+```
 
-`$ react-native link react-native-conekta`
+or using yarn:
+
+```shell
+yarn add react-native-conekta
+```
+
+> ⚠️ React Native >=0.60.0
 
 ## Usage
 ```javascript
