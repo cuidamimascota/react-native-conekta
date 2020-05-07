@@ -24,7 +24,19 @@ pod install
 ## Usage
 ```javascript
 import Conekta from 'react-native-conekta';
+var conektaApi = new Conekta();
 
-// TODO: What to do with the module?
-Conekta;
+conektaApi.setPublicKey( 'YOUR_PUBLIC_KEY' );
+
+conektaApi.createToken({
+  cardNumber: '4242424242424242',
+  name: 'Manolo Virolo',
+  cvc: '111',
+  expMonth: '11',
+  expYear: '21',
+}, function(data){
+  console.log( 'DATA:', data ); // data.id to get the Token ID
+}, function(){
+  console.log( 'Error!' );
+});
 ```
