@@ -1,4 +1,10 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.reactlibrary">
+<manifest   xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            package="com.reactlibrary">
 
+    <application
+        android:allowBackup="false"
+        tools:replace="android:allowBackup">
+        <uses-library android:name ="org.apache.http.legacy" android:required ="false"/>
+    </application>
 </manifest>

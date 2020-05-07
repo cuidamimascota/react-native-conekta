@@ -1,6 +1,6 @@
 {
-  "name": "example",
-  "version": "0.0.1",
+  "name": "react-native-conekta-io",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "android": "react-native run-android",

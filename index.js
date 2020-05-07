@@ -12,8 +12,8 @@ export default class Conekta {
     }
 
     createToken = (info: Object, success: Function, error: Function) => {
-        info.publicKey = this.publicKey;
-        NativeModules.Conekta.createToken(info, function (response) {
+        const data = {...info, publicKey: this.publicKey}
+        NativeModules.Conekta.createToken(data, function (response) {
             if (Platform.OS === 'android') {
                 success(JSON.parse(response));
             } else {
