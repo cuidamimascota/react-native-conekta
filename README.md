@@ -14,6 +14,11 @@ or using yarn:
 yarn add react-native-conekta
 ```
 
+```shell
+cd ios
+pod install
+```
+
 > ⚠️ React Native >=0.60.0
 
 ## Usage
