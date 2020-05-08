@@ -5,13 +5,13 @@
 Using npm:
 
 ```shell
-npm install --save react-native-conekta
+npm install --save @cuidamimascota/react-native-conekta
 ```
 
 or using yarn:
 
 ```shell
-yarn add react-native-conekta
+yarn add @cuidamimascota/react-native-conekta
 ```
 
 ```shell
