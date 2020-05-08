@@ -1,7 +1,7 @@
 {
   "name": "@cuidamimascota/react-native-conekta",
   "title": "React Native Conekta",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "react native conekta",
   "main": "index.js",
   "scripts": {
