@@ -10,7 +10,7 @@
 
 import React, { Component } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import Conekta from 'react-native-conekta';
+import Conekta from '@cuidamimascota/react-native-conekta';
 
 export default class App extends Component<{}> {
   state = {
