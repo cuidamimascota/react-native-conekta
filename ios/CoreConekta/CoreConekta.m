@@ -1,13 +1,11 @@
 #import "CoreConekta.h"
+@import WebKit;
 
 
 @implementation CoreConekta
 
-UIWebView *web;
-
 - (id) init
 {
-    web = [[UIWebView alloc] initWithFrame:CGRectMake(0, 0, 0, 0)];
     [self setBaseURI:@"https://api.conekta.io"];
     return self;
 }
@@ -21,8 +19,8 @@ UIWebView *web;
 - (void) collectDevice {
     NSString *html = [NSString stringWithFormat:@"<html style=\"background: blue;\"><head></head><body><script type=\"text/javascript\" src=\"https://conektaapi.s3.amazonaws.com/v0.5.0/js/conekta.js\" data-conekta-public-key=\"%@\" data-conekta-session-id=\"%@\"></script></body></html>", [self publicKey], [self deviceFingerprint]];
 
+    WKWebView *web = [[WKWebView alloc] initWithFrame:CGRectMake(0, 0, 0, 0)];
     [web loadHTMLString:html baseURL:nil];
-    [web setScalesPageToFit:YES];
     [self.delegate.view addSubview:web];
 }
 
