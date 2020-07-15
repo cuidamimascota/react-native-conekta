@@ -16,7 +16,10 @@
     "react-native",
     "react-native-conekta"
   ],
-  "author": "binwilly <https://github.com/binwilly>",
+  "author": {
+    "username": "binwilly <https://github.com/binwilly>",
+    "name": "binwilly"
+  },
   "license": "MIT",
   "licenseFilename": "LICENSE",
   "peerDependencies": {
