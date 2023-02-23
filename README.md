@@ -30,7 +30,7 @@ conektaApi.setPublicKey('YOUR_PUBLIC_KEY');
 
 conektaApi.createToken({
   cardNumber: '4242424242424242',
-  name: 'Manolo Virolo',
+  name: 'Juan Carlos Munoz Guzman',
   cvc: '111',
   expMonth: '11',
   expYear: '21',
