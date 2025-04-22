@@ -1,5 +1,7 @@
 # react-native-conekta [![npm version](https://badge.fury.io/js/%40cuidamimascota%2Freact-native-conekta.svg)](https://badge.fury.io/js/%40cuidamimascota%2Freact-native-conekta)
 
+### DEPRECATED 
+
 ## ⚠️ NOT OFFICIAL
 
 ## Getting started
