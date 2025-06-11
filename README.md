@@ -1,7 +1,5 @@
 # react-native-conekta [![npm version](https://badge.fury.io/js/%40cuidamimascota%2Freact-native-conekta.svg)](https://badge.fury.io/js/%40cuidamimascota%2Freact-native-conekta)
 
-### DEPRECATED 
-
 ## ⚠️ NOT OFFICIAL
 
 ## Getting started
@@ -23,7 +21,7 @@ cd ios
 pod install
 ```
 
-> ⚠️ React Native >=0.60.0
+> ⚠️ Need React Native >=0.63.3
 
 ## Usage
 ```javascript
