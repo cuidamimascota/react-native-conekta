@@ -28,7 +28,12 @@
   },
   "devDependencies": {
     "react": "^16.9.0",
-    "react-native": "^0.61.5"
+    "react-native": "^0.63.3"
+  },
+  "resolutions": {
+    "logkitty": "^0.7.1",
+    "node-notifier": "^8.0.1",
+    "y18n": "^4.0.3"
   },
   "bugs": {
     "url": "https://github.com/cuidamimascota/react-native-conekta/issues"
@@ -36,5 +41,6 @@
   "homepage": "https://github.com/cuidamimascota/react-native-conekta#readme",
   "directories": {
     "example": "example"
-  }
+  },
+  "packageManager": "yarn@4.6.0+sha512.5383cc12567a95f1d668fbe762dfe0075c595b4bfff433be478dbbe24e05251a8e8c3eb992a986667c1d53b6c3a9c85b8398c35a960587fbd9fa3a0915406728"
 }
